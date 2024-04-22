@@ -27,8 +27,10 @@
     display: none;
 }
 .close {
-  width: 100%;
+  position: absolute;
+  right: 40px;
   cursor: pointer;
+  z-index: 1009;
 }
 #closebt {
   float: right;
