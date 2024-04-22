@@ -1,0 +1,98 @@
+@import "common.css";
+footer {
+    background-color: rgba(15, 25, 31, 0.88);
+    padding: 80px 0 100px 0;
+    width: 100%;
+    justify-content: center;
+}
+.container-wrapper .contact_us {
+    position: relative;
+}
+.contact_us .contact_us_title {
+    overflow-wrap: break-word;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: var(--body-semibold);
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 56px;
+}
+.contact_us .contact_us_phone {
+    position: relative;
+}
+.contact_us_phone .phone_img {
+    width: 32px;
+    height: 37px;
+}
+.contact_us_phone .phone_text {
+    overflow-wrap: break-word;
+    font-family: var(--body-regular);
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 56px;
+    margin-left: var(--size-8);
+}
+.contact_us .contact_us_desc {
+    overflow-wrap: break-word;
+    font-family: var(--body-regular);
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.45);
+    line-height: 27px;
+    margin-top: 40px;
+}
+.contact_us .contact_us_address {
+    font-family: var(--body-regular);
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.88);
+    line-height: 22px;
+}
+.container-wrapper .back_image {
+    width: 256px;
+    height: 130px;
+}
+.container-wrapper .qrcode {
+    position: relative;
+}
+.qrcode .qrcode_desc {
+    font-family: var(--body-regular);
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(250, 251, 252, 0.45);
+    line-height: 56px;
+}
+.qrcode .qrcode_content {
+    width: 158px;
+    height: 130px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+    -webkit-animation: scale-up-one 3s infinite linear;
+    animation: scale-up-one 3s infinite linear;
+}
+.qrcode_content .qrcode_content_image {
+    width: 114px;
+    margin: 8px;
+}
+.qrcode_content .qrcode_content_paragraph {
+    overflow-wrap: break-word;
+    font-family: var(--body-regular);
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 22px;
+    margin-top: 22px;
+}
+.filings {
+    margin-top: 80px;
+    font-family: var(--body-regular);
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(250, 251, 252, 0.25);
+    line-height: 32px;
+}
+.filings .division_line {
+    padding: 0 12px;
+}

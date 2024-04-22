@@ -1,0 +1,68 @@
+@import "common.css";
+.page .system {
+    position: relative;
+    width: 100%;
+    padding: 104px 0 106px 0;
+}
+.system .container-wrapper {
+    padding: 54px 0;
+}
+.page .container-wrapper:last-child {
+    padding-bottom: 0 !important;
+}
+.system .system_title {
+    color: rgba(15, 25, 31, 1);
+    font-size: 48px;
+    font-family: var(--body-semibold);
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper_text {
+    position: relative;
+    width: 100%;
+}
+.image-text_title .title_image {
+    width: 56px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.image-text_title .title_text {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 14px;
+}
+.wrapper_text .image-text_content {
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+.image-text_content .content_image {
+    width: 18px;
+    height: 16px;
+    margin-top: 2px;
+}
+.image-text_content .content_text {
+    color: rgba(15, 25, 31, 0.65);
+    font-size: 16px;
+    font-family: var(--body-regular);
+    margin-left: 6px;
+    line-height: 24px;
+    overflow-wrap: break-word;
+}
+.container-wrapper .wrapper_title {
+    position: relative;
+    margin-top: 42px;
+}
+
+.wrapper_title .back_image {
+    position: absolute;
+    right: 0;
+    top: 222px;
+    width: 176px !important;
+    height: 176px !important;
+}
+.image {
+    object-fit: cover;
+    width: 100%;
+}

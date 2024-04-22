@@ -1,0 +1,566 @@
+@import "common.css";
+.page .system {
+    position: relative;
+    width: 100%;
+    padding: 104px 0 106px 0;
+}
+.page .system_back {
+    position: relative;
+    width: 100%;
+    padding-bottom: 112px;
+    background: url('../imgs/index/p2-bg.png') 100% 100%;
+}
+.page .backups_back {
+    position: relative;
+    width: 100%;
+    background: #E3F4FC;
+}
+.page .history_back1 {
+    background: #E3F4FC;
+}
+.page .history_back2 {
+    background: #DAF3F7;
+}
+.page .history_back3 {
+    background: #E3F0FC;
+}
+.page .history_back4 {
+    background: #E3F4FC;
+}
+.page .roster_back {
+    background: #F2F6F7;
+}
+.system .system_image {
+    width: 100%;
+    height: auto;
+}
+.system .system_title {
+    color: rgba(15, 25, 31, 1);
+    font-size: 48px;
+    font-family: var(--body-semibold);
+    font-weight: 600;
+    text-align: center;
+}
+
+.system .system_title_describe {
+    color: rgba(0, 144, 217, 1);
+    font-size: 18px;
+    font-family: var(--body-regular);
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.system .system_group {
+    position: relative;
+    height: auto;
+    background: linear-gradient(0deg, #FFFFFF 0%, #FAEDEF 100%);
+    box-shadow: 0px 6px 18px 0px rgba(15,25,31,0.08);
+    border-radius: 8px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: var(--size-24);
+}
+.system_group .section {
+    margin: 34px 0 34px 24px;
+}
+.system_group .system_group_image {
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+    width: 200px;
+    height: auto;
+}
+.system_group .section .section_text {
+    color: #ED556F;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 18px;
+}
+.system_group .section .section_image-text {
+    width: 179px;
+    height: 18px;
+    margin-bottom: 14px;
+}
+.system_group .section .section_image-text .section_thumbnail {
+    width: 16px;
+    height: 16px;
+}
+.system_group .section .section_image-text .section_text-group {
+    color: rgba(237, 85, 111, 0.88);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--body-regular);
+    white-space: nowrap;
+    margin-left: 8px;
+}
+.system .section .section_line {
+    width: 36px;
+    height: 1px;
+    border: 1px solid rgba(237, 85, 111, 0.45);
+    margin-top: 10px;
+}
+
+.system .system_desc {
+    background: linear-gradient(0deg, #2ea8e5 0%, #007fbf 100%);
+    box-shadow: 0px 8px 24px 0px rgba(0,144,217,0.25);
+    border-radius: 8px;
+    padding: 34px 24px 40px 24px;
+    color: rgba(255,255, 255, 0.88);
+    font-family: var(--body-regular);
+    font-size: 16px;
+    font-weight: 400;
+}
+.container-wrapper .system_item {
+    margin-top: 38px;
+}
+.system_desc .section_line {
+    width: 36px;
+    height: 1px;
+    border: 1px solid rgba(255,255, 255, 0.45);
+    margin-top: 20px;
+}
+.system_desc .desc_title {
+    font-family: var(--body-regular);
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+.system_desc .desc_content {
+    line-height: 26px;
+    font-size: 16px;
+}
+.system_desc .banner_image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    height: 80%;
+    opacity: 0.5;
+}
+.system_item .item_num {
+    font-family: DIN Alternate;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(15, 25, 31, 0.2);
+    font-style: italic;
+}
+.system_item .item_middle {
+    font-family: PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(15, 25, 31, 0.45);
+    margin-top: 12px;
+}
+.system_item .item_end {
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0F191F;
+    margin-top: 4px;
+}
+.system .image_back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+.row_33_image .text {
+    color: rgba(15, 25, 31, 0.88);
+    font-size: 18px;
+    font-family: var(--body-regular);
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 3px;
+}
+.row_25_image .text, .row_50_image .text {
+    color: rgba(15, 25, 31, 0.88);
+    font-size: 18px;
+    font-family: var(--body-regular);
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 9px;
+}
+
+/* 股权管理工具 */
+.container-wrapper .manage_tools {
+
+}
+.p6_banner {
+    width: 868px;
+    height: 432px;
+    overflow: hidden;
+    position: relative;
+}
+.p6_banner > ul {
+    display: none;
+    /*width: 999999999px;*/
+    height: 432px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.p6_banner > ul > li  {
+    float: left;
+    height: 432px;
+}
+.manage_tools .p6_icon {
+    width: 24px;
+}
+.manage_tools .p6_title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #0F191F;
+}
+.manage_tools .p6_desc {
+    font-weight: 500;
+    font-size: 32px;
+    color: #0F191F;
+    margin: 12px 0 10px 0;
+}
+.container-wrapper .wrapper_box {
+    position: relative;
+    margin-bottom: 16px;
+    cursor: pointer;
+
+}
+.wrapper_box .wrapper_line {
+    margin: 0 7px;
+    width: 2px;
+    height: 60px;
+    background: rgba(15, 25, 31, 0.08);
+    
+}
+.wrapper_box .wrapper_box_dot {
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+.wrapper_box .wrapper_box_context {
+    width: 100%;
+    height: 64px;
+    justify-content: center;
+    margin-left: 14px;
+}
+.wrapper_box_context {
+    color: rgba(15, 25, 31, 0.45);
+}
+.context_title .title_date {
+    font-weight: 600;
+    font-size: 18px;
+}
+.wrapper_box_context  .title_date_color {
+    color: #0090D9;
+}
+
+.wrapper_box_context .context_paragraph {
+    font-family: var(--body-regular);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.wrapper_box_context  .context_paragraph_color {
+    color: rgba(15, 25, 31, 0.8);
+}
+.wrapper_box_context .context_desc {
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0F191F;
+    opacity: 0.45;
+}
+
+/* 陪伴组织进入数字化股权管理时代 */
+.p7_content .row_33_image {
+    position: relative;
+    color: #2E2873;
+}
+.p7_content .row_33_image .p7_item {
+    position: relative;
+    width: 100%;
+    height: 316px;
+    padding: var(--size-24);
+}
+.p7_item .item_btn {
+    display: none;
+}
+/* .p7_content .row_33_image:hover {
+    color: #ffffff;
+}
+.p7_content .row_33_image:hover .p7_item {
+    width: 100%;
+    height: 316px;
+    -webkit-animation: p7_item-top-bounce .4s forwards;
+            animation: p7_item-top-bounce .4s forwards;
+} */
+@-webkit-keyframes p7_item-top-bounce {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-80px);
+        transform: translateY(-80px);
+    }
+}
+
+@keyframes p7_item-top-bounce {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-80px);
+        transform: translateY(-80px);
+    }
+}
+
+.p7_content .row_33_image::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: '';
+    width: 200px;
+    height: 300px;
+}
+/* .p7_content .row_33_image:hover::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: '';
+    width: 200px;
+    height: 300px;
+} */
+.p7_content .row_33_image:first-child::after {
+    background: url('../imgs/index/p7-enterprises-back.png') no-repeat;
+    background-size: cover;
+}
+/* .p7_content .row_33_image:first-child:hover::after {
+    background: url('../imgs/index/p7-enterprises-back1.png') no-repeat;
+    background-size: cover;
+} */
+.p7_content .row_33_image:nth-child(2):after {
+    background: url('../imgs/index/p7-group-back.png') no-repeat;
+    background-size: cover;
+}
+/* .p7_content .row_33_image:nth-child(2):hover::after {
+    background: url('../imgs/index/p7-group-back1.png') no-repeat;
+    background-size: cover;
+} */
+.p7_content .row_33_image:nth-child(3):after {
+    background: url('../imgs/index/p7-bank-back.png') no-repeat;
+    background-size: cover;
+}
+/* .p7_content .row_33_image:nth-child(3):hover::after {
+    background: url('../imgs/index/p7-bank-back1.png') no-repeat;
+    background-size: cover;
+} */
+/* .p7_content .row_33_image:hover .item_btn {
+    display: block;
+    cursor: pointer;
+} */
+.container-wrapper .enterprises_back {
+    background: linear-gradient(0deg, #cdebfa 0%, #87d4fa 100%);
+    border-radius: 12px;
+}
+.container-wrapper .group_back {
+    background: linear-gradient(0deg, #d4e5fc 0%, #8cbafa 100%);
+    border-radius: 12px;
+}
+.container-wrapper .bank_back {
+    background: linear-gradient(0deg, #dee3ff 0%, #96a7fa 100%);
+    border-radius: 12px;
+}
+/* .p7_content .enterprises_back:hover {
+    background: linear-gradient(0deg, #ABC8D6 0%, #658B9E 100%);
+}
+.p7_content .group_back:hover {
+    background: linear-gradient(0deg, #D6C1AB 0%, #A37868 100%);
+}
+.p7_content .bank_back:hover {
+    background: linear-gradient(0deg, #ADCED9 0%, #7268A3 100%);
+}
+.p7_content .row_33_image:hover .back_heart_img {
+    width: 120px;
+    margin-left: -16px;
+} */
+.back_heart_img {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: -16px;
+}
+.back_heart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+}
+.p7_item .p7_title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.p7_item .p7_desc {
+    font-family: var(--body-regular);
+    font-size: 16px;
+    opacity: 0.88;
+    margin-bottom: 2px;
+}
+.p7_item .p7_unit {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 4px;
+}
+.p7_item .p7_price {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 36px;
+}
+.p7_item .p7_consulting_price {
+    font-weight: 600;
+    font-size: 32px;
+}
+.enterprises_back {
+    color: rgba(2, 80, 122, 1);
+}
+.enterprises_back .p7_desc {
+    color: rgba(2, 80, 122, 0.88);
+}
+
+
+.group_back {
+    color: rgba(13, 63, 133, 1);
+}
+.group_back .p7_desc {
+    color: rgba(13, 63, 133, 0.88);
+}
+
+
+.bank_back {
+    color: rgba(29, 57, 143, 1);
+}
+.bank_back .p7_desc {
+    color: rgba(29, 57, 143, 0.88);
+}
+
+/* 客户肯定 */
+.p8_btn {
+    width: 1184px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p8_banner_left, .p8_banner_right {
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.p8_banner_left {
+    left: 0;
+}
+.p8_btn .p8_banner_left:hover, .p8_banner_right:hover {
+    border: 1px solid #0090D9;
+    border-radius: 8px;
+}
+.p8_banner {
+    position: relative;
+    width: 960px;
+    height: 376px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.p8_banner > ul {
+    display: none;
+    /*width: 999999999px;*/
+    position: absolute;
+    height: 376px;
+    top:0;
+    left: 0;
+}
+
+.p8_banner > ul > li  {
+    float: left;
+    height: 376px;
+}
+.container-wrapper .p8_banner_content {
+    position: relative;
+    flex: 1;
+    margin: 0 var(--size-36);
+}
+.p8_banner_content .p8_title_img {
+    width: 180px;
+}
+.p8_banner_content .p8_content {
+    font-weight: 500;
+    font-size: 24px;
+    color: #0F191F;
+    margin: var(--size-36) 0 86px 0;
+    line-height: 48px;
+}
+.p8_banner_content .p8_avatar {
+    width: 32px;
+    height: 32px;
+}
+.p8_banner_content .p8_name {
+    font-weight: 500;
+    font-size: 18px;
+    color: #0F191F;
+    margin: 0 8px 0 16px;
+}
+.p8_banner_content .p8_comp {
+    font-family: var(--body-regular);
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(15, 25, 31, 0.45);
+}
+.p8_banner_content .p8_line {
+    width: 72px;
+    height: 1px;
+    background: rgba(0, 144, 217, 0.65);
+}
+.p8_line .p8_line_3 {
+    background-color: rgba(0, 144, 217, 1);
+    width: 24px;
+    height: 3px;
+    margin-top: -1px;
+}
+.p8_banner_content .p8_quotation_marks{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 162px;
+}
+.p9_content {
+    position: relative;
+}
+.p9_soft {
+    width: 224px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px 0px rgba(15,25,31,0.05), 0px 6px 18px 0px rgba(15,25,31,0.03), 0px 9px 26px 2px rgba(15,25,31,0.03);
+    border-radius: 8px;
+    padding: 18px 22px 12px 22px;
+    margin: 6px;
+}
