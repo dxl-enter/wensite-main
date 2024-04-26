@@ -1,0 +1,100 @@
+@import "common.css";
+.page .system {
+  position: relative;
+  width: 100%;
+  padding: 0.46rem 0;
+}
+.system .system_title {
+  font-weight: 600;
+  font-size: 0.2rem;
+  color: #0f191f;
+  text-align: center;
+  margin-bottom: 0.28rem;
+}
+
+/* 内容 */
+.container-wrapper .wrapper_box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0.16rem 0;
+}
+.wrapper_box .placeholder {
+  width: 1px;
+  height: 0.3rem;
+}
+.wrapper_box .wrapper_line {
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 144, 217, 0.24) 0%,
+      rgba(0, 144, 217, 0.24) 80%,
+      transparent 50%
+    );
+    background-size: 100% 0.18rem;
+    background-repeat: repeat-y;
+    margin-bottom: -0.9rem;
+}
+.wrapper_box .wrapper_box_dot {
+  width: 0.2rem;
+}
+.wrapper_box .wrapper_box_image {
+  width: 0.14rem;
+  height: 0.14rem;
+  margin-top: 0.32rem;
+}
+.wrapper_box .wrapper_box_context {
+  background: linear-gradient(0deg, #fafcfc 0%, #e9eff2 100%);
+  box-shadow: 0px 1px 3px 0px rgba(15, 25, 31, 0.05),
+    0px 3px 9px 0px rgba(15, 25, 31, 0.03),
+    0px 5px 13px 1px rgba(15, 25, 31, 0.03);
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  padding: 0.32rem 0.2rem;
+}
+.wrapper_box_context .context_title {
+  height: 0.24rem;
+}
+.context_title .title_date {
+  overflow-wrap: break-word;
+  color: rgba(15, 25, 31, 1);
+  font-size: 0.18rem;
+  font-family: var(--body-semibold);
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+}
+.context_title .title-wrapper {
+  background: linear-gradient(90deg, #f24461 0%, #f76d84 99%);
+  box-shadow: 0px 1px 3px 0px rgba(247, 89, 115, 0.16);
+  border-radius: 4px 4px 4px 2px;
+  border: 0px solid #ffffff;
+  padding: 0.04rem;
+  margin-left: 0.1rem;
+}
+.title-wrapper .title-wrapper_text {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.08rem;
+  font-family: var(--body-regular);
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+}
+.wrapper_box_context .context_paragraph {
+  overflow-wrap: break-word;
+  color: rgba(15, 25, 31, 0.65);
+  font-size: 0.14rem;
+  font-family: var(--body-regular);
+  font-weight: normal;
+  text-align: left;
+  line-height: 0.24rem;
+  margin-top: 0.16rem;
+}
+.wrapper_box_context .section_line {
+  width: 0.24rem;
+  height: 1px;
+  background: rgba(15, 25, 31, 0.15);
+  margin-top: 0.16rem;
+}

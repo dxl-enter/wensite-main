@@ -1,0 +1,85 @@
+@import "common.css";
+.page .system {
+  position: relative;
+  width: 100%;
+  padding: 0.46rem 0;
+}
+.system .system_title {
+  font-weight: 600;
+  font-size: 0.2rem;
+  color: #0f191f;
+  text-align: center;
+  margin-bottom: 0.55rem;
+}
+
+.system .content_item {
+  position: relative;
+  width: 3.43rem;
+  margin: 0 auto;
+  background: linear-gradient(0deg, #fafcfc 0%, #e4eaed 99%);
+  box-shadow: 0px 1px 3px 0px rgba(15, 25, 31, 0.05),
+    0px 3px 9px 0px rgba(15, 25, 31, 0.03),
+    0px 5px 13px 1px rgba(15, 25, 31, 0.03);
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  padding: 0 0.2rem 0.32rem 0.2rem;
+  margin-bottom: 0.54rem;
+}
+.content_item:last-child {
+    margin-bottom: 0;
+}
+.content_item .wrapper_title {
+  position: relative;
+  margin-top: 0.2rem;
+}
+.content_item .wrapper_img {
+  width: 100%;
+  background: #e1e4e6;
+  border-radius: 4px;
+  border: 1px solid;
+  border-image: linear-gradient(0deg, #e1e4e6, #eceded) 10 10;
+  margin: -0.3rem auto 0 auto;
+  border: 1px solid #ffffff;
+}
+.image-text_title .title_image {
+  width: 0.28rem;
+}
+.image-text_title .title_text {
+  font-size: 0.16rem;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 0.08rem;
+}
+.wrapper_text .image-text_content {
+  margin-top: 0.12rem;
+}
+.image-text_content .content_image {
+  width: 0.12rem;
+}
+.image-text_content .content_text {
+  color: rgba(20, 31, 15, 0.65);
+  font-size: 0.14rem;
+  font-family: var(--body-regular);
+  margin-left: 0.06rem;
+  line-height: 0.24rem;
+  overflow-wrap: break-word;
+  font-weight: 400;
+}
+.wrapper_title .item_back_image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.wrapper_title .wrapper_line {
+  width: 0.24rem;
+  height: 1px;
+  margin-top: 0.16rem;
+  background: rgba(15, 25, 31, 0.25);
+}
+.image {
+  object-fit: cover;
+  width: 100%;
+}
