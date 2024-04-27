@@ -2,7 +2,7 @@
 .page .system {
   position: relative;
   width: 100%;
-  padding-top: 0.46rem;
+  padding: 0.43rem 0;
 }
 .system .system_title {
   font-weight: 600;
@@ -10,6 +10,7 @@
   color: #0f191f;
   text-align: center;
 }
+
 .system .system_title_describe {
   color: rgba(15, 25, 31, 0.45);
   font-weight: 400;
@@ -17,8 +18,7 @@
   font-family: var(--body-regular);
   font-weight: normal;
   text-align: center;
-  margin-top: 0.12rem;
-  margin-bottom: 0.24rem;
+  margin: 0.04rem 0.16rem 0.2rem 0.16rem;
 }
 
 /* p2 */

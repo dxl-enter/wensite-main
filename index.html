@@ -16,23 +16,21 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#6dbfb8">
     <title>首页</title>
 
-    <link rel="stylesheet" href="./css/index.css" />
-    <script type="text/javascript">  
-    setTimeout(()=>{
-        // 根据屏幕尺寸  
-        if (screen && screen.width > 1184) {
-            window.location.href = "pcindex.html";
-        }  else {
-            window.location.href = "./phone/index.html";
-        }
-    },1000)
-        
-        
+    <link rel="stylesheet" href="./css/common.css" />
+    <script type="text/javascript">
+        setTimeout(() => {
+            // 根据屏幕尺寸  
+            if (screen && screen.width > 1184) {
+                window.location.href = "pcindex.html";
+            } else {
+                window.location.href = "./phone/index.html";
+            }
+        }, 100)
     </script>
 </head>
 
 <body>
-<div>loading</div>
+    <div class="flex-row align-center justify-center">loading</div>
 </body>
 
 </html>

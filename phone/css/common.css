@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-  color: #7b68ee;
+  box-shadow: #0088cc;
   text-decoration: none;
 }
 
@@ -190,6 +190,9 @@ a:hover {
 .mt-16 {
   margin-top: var(--size-16);
 }
+.mglr_16 {
+  margin: 0 var(--size-16);
+}
 /* 页面 */
 .page {
   background-color: rgba(255, 255, 255, 1);
@@ -218,11 +221,14 @@ a:hover {
   font-weight: 500;
   font-size: 0.16rem;
   color: #0F191F;
+  margin-bottom: 0.06rem;
 }
 .banner_block .text-wrapper {
+  line-height: 0.3rem;
   overflow-wrap: break-word;
   text-align: left;
   white-space: nowrap;
+  margin-bottom: 0.02rem;
 }
 .text-wrapper .text {
   overflow-wrap: break-word;
@@ -310,7 +316,7 @@ a:hover {
   border-radius: 4px;
   color: #fff;
   font-size: 0.14rem;
-  padding: 0.12rem 0.24rem;
+  padding: 0.06rem 0.22rem;
   cursor: pointer;
 }
 .btn_white {
@@ -332,8 +338,24 @@ a:hover {
 .display_inline-block {
   display: flex;
 }
+.display_block {
+  display: block;
+}
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
   }
+.swiper-pagination-bullet {
+  width: 0.16rem;
+  height: 0.04rem;
+  border-radius: 1px;
+  background: rgba(15, 25, 31, 0.12);
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  width: 0.16rem;
+  height: 0.04rem;
+  border-radius: 1px;
+  background: #0090D9;
+}

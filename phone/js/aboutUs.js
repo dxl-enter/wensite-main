@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var mySwiper = new Swiper("#banner", {
+    new Swiper("#banner", {
         initialSlide: Math.floor(3 / 2),
         autoplay: true,
         slidesPerView: 'auto',
