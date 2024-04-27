@@ -25,7 +25,7 @@ $(document).ready(function () {
     immediatelyConsult()
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
-        var distance = 240; // 触发显示按钮的滚动距离
+        var distance = $('.banner_block').height(); // 触发显示按钮的滚动距离
 
         if (scrollTop > distance) {
             $('.footer_btn').addClass('display_block');

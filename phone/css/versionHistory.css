@@ -2,14 +2,31 @@
 .page .system {
   position: relative;
   width: 100%;
-  padding: 0.43rem 0;
+  padding-top: 0.43rem;
 }
 .system .system_title {
   font-weight: 600;
   font-size: 0.2rem;
   color: #0f191f;
   text-align: center;
-  margin-bottom: 0.28rem;
+  margin-bottom: 0.04rem;
+  z-index: 99;
+}
+.page_content {
+  background: #F2F6F7;
+}
+.system .back_placeholder {
+  position: relative;
+  width: 100%;
+  background: #ffffff;
+}
+.back_placeholder .gradient {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.8rem;
+  background: linear-gradient(0deg, #F2F6F7 0%, #FFFFFF 100%);
 }
 
 /* 内容 */
@@ -17,7 +34,10 @@
   position: relative;
   width: 100%;
   height: 100%;
-  margin: 0.16rem 0;
+  margin: 0.06rem 0;
+}
+.wrapper_box:last-child {
+  margin-bottom: 0.47rem;
 }
 .wrapper_box .placeholder {
   width: 1px;
@@ -34,7 +54,7 @@
     );
     background-size: 100% 0.18rem;
     background-repeat: repeat-y;
-    margin-bottom: -0.9rem;
+    margin-bottom: -0.4rem;
 }
 .wrapper_box .wrapper_box_dot {
   width: 0.2rem;
@@ -51,7 +71,7 @@
     0px 5px 13px 1px rgba(15, 25, 31, 0.03);
   border-radius: 4px;
   border: 1px solid #ffffff;
-  padding: 0.32rem 0.2rem;
+  padding: 0.27rem 0.18rem 0.31rem 0.18rem;
 }
 .wrapper_box_context .context_title {
   height: 0.24rem;
@@ -70,8 +90,8 @@
   box-shadow: 0px 1px 3px 0px rgba(247, 89, 115, 0.16);
   border-radius: 4px 4px 4px 2px;
   border: 0px solid #ffffff;
-  padding: 0.04rem;
-  margin-left: 0.1rem;
+  padding: 0.01rem 0.04rem;
+  margin-left: 0.04rem;
 }
 .title-wrapper .title-wrapper_text {
   overflow-wrap: break-word;
@@ -90,11 +110,11 @@
   font-weight: normal;
   text-align: left;
   line-height: 0.24rem;
-  margin-top: 0.16rem;
+  margin-top: 0.05rem;
 }
 .wrapper_box_context .section_line {
   width: 0.24rem;
   height: 1px;
-  background: rgba(15, 25, 31, 0.15);
-  margin-top: 0.16rem;
+  background: rgba(15, 25, 31, 0.13);
+  margin-top: 0.11rem;
 }

@@ -1,7 +1,7 @@
 @import "common.css";
 footer {
   background-color: rgba(15, 25, 31, 0.88);
-  padding: 0.46rem 0 0.72rem 0;
+  padding: 0.42rem 0 0.98rem 0;
   width: 100%;
   justify-content: center;
 }
@@ -14,6 +14,7 @@ footer {
   font-weight: 400;
   font-size: 0.16rem;
   color: #ffffff;
+  margin-bottom: 0.1rem;
 }
 .contact_us .contact_us_phone {
   position: relative;
@@ -28,7 +29,7 @@ footer {
   font-weight: 500;
   font-size: 0.26rem;
   color: #ffffff;
-  margin-left: var(--size-8);
+  margin-left: 0.06rem;
 }
 
 .contact_us .contact_us_address {
@@ -36,7 +37,7 @@ footer {
   font-weight: 400;
   font-size: 0.12rem;
   color: rgba(255, 255, 255, 0.65);
-  margin-top: 0.16rem;
+  margin-top: 0.04rem;
 }
 .container-wrapper .back_image {
   position: absolute;
@@ -47,7 +48,6 @@ footer {
 }
 
 .filings {
-  margin-top: 0.4rem;
   font-family: var(--body-regular);
   font-weight: 400;
   font-size: 0.12rem;
@@ -62,8 +62,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 0.56rem;
-  margin-top: 0.24rem;
+  height: 0.6rem;
   text-align: center;
   z-index: 999;
   animation: toggle 1s forwards;
@@ -76,4 +75,10 @@ footer {
   font-size: 0.16rem;
   color: #FFFFFF;
   padding: 0.12rem 0;
+}
+.footer_line {
+  width: 3.43rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.04);
+  margin: 0.12rem 0;
 }

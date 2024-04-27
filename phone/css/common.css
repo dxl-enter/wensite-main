@@ -190,6 +190,18 @@ a:hover {
 .mt-16 {
   margin-top: var(--size-16);
 }
+.mt-10 {
+  margin-top: 0.1rem;
+}
+.mb-8 {
+  margin-bottom: 0.08rem;
+}
+.mb-14 {
+  margin-bottom: var(--size-14);
+}
+.mb-20 {
+  margin-bottom: var(--size-20);
+}
 .mglr_16 {
   margin: 0 var(--size-16);
 }
@@ -347,15 +359,27 @@ a:hover {
     clear: both;
   }
 .swiper-pagination-bullet {
-  width: 0.16rem;
+  width: 0.12rem;
   height: 0.04rem;
+  margin: 0 0.02rem !important;
   border-radius: 1px;
   background: rgba(15, 25, 31, 0.12);
   opacity: 1;
 }
 .swiper-pagination-bullet-active {
-  width: 0.16rem;
+  width: 0.12rem;
   height: 0.04rem;
+  margin: 0 0.02rem !important;
   border-radius: 1px;
   background: #0090D9;
+}
+.swiper-pagination {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.14rem;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0;
 }

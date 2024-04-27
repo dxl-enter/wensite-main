@@ -6,7 +6,7 @@
   height: 0.54rem;
   background: #ffffff;
   box-shadow: 0px 3px 8px 0px rgba(15, 25, 31, 0.12);
-  z-index: 99;
+  z-index: 1001;
   padding: 0 var(--size-16);
 }
 .image-wrapper {
