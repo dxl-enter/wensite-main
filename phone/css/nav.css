@@ -6,7 +6,7 @@
   height: 0.54rem;
   background: #ffffff;
   box-shadow: 0px 3px 8px 0px rgba(15, 25, 31, 0.12);
-  z-index: 1001;
+  z-index: 1002;
   padding: 0 var(--size-16);
 }
 .image-wrapper {
@@ -25,7 +25,7 @@
   width: 100%;
   height: 100vh;
   background-color: rgba(15, 25, 31, 0.45);
-  z-index: 98;
+  z-index: 1001;
   animation: slideIn 1s forwards;
   border-radius: 0px 0px 4px 4px;
 }
@@ -34,15 +34,16 @@
   right: 0;
   top: 0;
   width: 100%;
-  height: 2.16rem;
+  height: auto;
   background: #ffffff;
   animation: slideInFromTop 1s forwards;
 }
 .raising-menu > li {
   
-  border-bottom: 1px solid rgba(15, 25, 31, 0.1);
+  border-bottom: 1px solid rgba(15, 25, 31, 0.05);
 }
 .raising-menu > li > a {
+  font-family: var(--body-regular);
   padding: 0.16rem;
   font-size: 0.16rem;
   font-weight: 400;

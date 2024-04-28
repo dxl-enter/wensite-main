@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    new Swiper("#banner", {
+    const swiper = new Swiper("#banner", {
         initialSlide: Math.floor(3 / 2),
         autoplay: true,
         slidesPerView: 'auto',
@@ -25,5 +25,11 @@ $(document).ready(function () {
             el: '.banner_page',
             clickable: true,
         },
+    })
+    swiper.on('slideChange', e => {
+        $('.portfolio-item').removeClass('current-slide');
+        const realIndex = e.activeIndex;
+        console.log(realIndex);
+        $('.portfolio-item').eq(realIndex).addClass('current-slide')
     })
 })

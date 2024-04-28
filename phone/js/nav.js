@@ -21,8 +21,8 @@ $(document).ready(function(){
         
         if($this[0].href==String(window.location)){
             $this.parent().addClass("current");
-            $this.parent().css({background: 'rgba(15, 25, 31, 0.06)'})
-            $this.css({color: 'rgba(0, 144, 217, 1)'});
+            $this.parent().css({background: 'rgba(0, 144, 217, 0.1)'})
+            $this.css({color: 'rgba(0, 144, 217, 1)',fontFamily: "PingFangSC-Semibold"});
         } else {
             $this.parent().removeClass("current");
             $this.parent().css({background: 'rgba(255, 255, 255, 1)'})
